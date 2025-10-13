@@ -35,7 +35,7 @@ class Section extends React.Component {
             // Contenedor principal con la imagen de fondo
             <section 
                 className="w-full min-h-screen py-20 px-4 sm:px-6 lg:px-80 bg-cover bg-center"
-                style={{ backgroundImage: "url('/fondoWeb.png')" }}
+                style={{ backgroundImage: "url('/fondoWeb.png')", width:"100vw" }}
             >
                 
                 <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-center lg:space-x-12 space-y-12 lg:space-y-0">
