@@ -34,9 +34,10 @@ class Section extends React.Component {
         return (
             // Contenedor principal con la imagen de fondo
             <section 
-                className="w-full min-h-screen py-20 px-4 sm:px-6 lg:px-8 bg-cover bg-center"
-                style={{ backgroundImage: "url('../public/fondoWeb.png')" }} // Asegúrate de que el nombre de archivo y la ruta sean correctos
+                className="w-full min-h-screen py-20 px-4 sm:px-6 lg:px-80 bg-cover bg-center"
+                style={{ backgroundImage: "url('/fondoWeb.png')" }}
             >
+                
                 <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-center lg:space-x-12 space-y-12 lg:space-y-0">
                     
                     {/* Columna de 'Últimes notícies' */}
