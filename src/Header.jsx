@@ -22,6 +22,10 @@ class Header extends React.Component {
                                 <li class="nav-item">
                                     <a class="text-[#9eefe5] hover:text-white transition-colors" href="videojocs.html">Videojocs</a>
                                 </li>
+
+                                <li class="nav-item">
+                                    <a class="text-[#9eefe5] hover:text-white transition-colors" href="contacte.html">Contacte</a>
+                                </li>
                             </ul>
                         </nav>
 
