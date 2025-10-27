@@ -1,5 +1,4 @@
 import React from "react";
-import Carousel from './Carousel'; 
 
 const Card = ({ title, buttonText }) => (
     <div className="flex items-center justify-between p-4 bg-[#6c859d] rounded-lg shadow-lg mb-4 
@@ -64,7 +63,7 @@ class Section extends React.Component {
                     </div>
                 </div>
                 {}
-                <Carousel /> 
+                 
             </section>
         );
     }
